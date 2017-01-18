@@ -16,20 +16,14 @@ a:active{text-decoration:none;color:none;}
 
 /*-- Slideshow --*/
 /*----------------------------------------------------------------------------*/
-#jumbo {
-	width: 100%;
-}
-
+#jumbo {width: 100%;}
 .mySlides {display:none}
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
   margin: auto;
 	z-index: -100;
 }
-
 .dot {
   height: 13px;
   width: 13px;
@@ -39,51 +33,47 @@ a:active{text-decoration:none;color:none;}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active {
   background-color: #717171;
 }
-
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
 
- #splash {
-	 width: 85%;
-	 max-width: 1200px;
-	 font-size: 40px;
-	 text-align: left;
-	 padding-top: 20px;
-	 padding-bottom: 40px;
-	 color: #C8102E;
-	 font-family: 'Open Sans', sans-serif;
- }
+/*-- Logo styles --*/
+/*----------------------------------------------------------------------------*/
 
+
+
+#splash {
+	width: 85%;
+	max-width: 1200px;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: #C8102E;
+	font-family: 'Open Sans', sans-serif;
+ }
 #more {
 	width:100%;
 	background-color: #C8102E;
 	padding-top: 30px;
 }
-
 #squeeze {
 	width: 85%;
 	max-width: 1200px;
@@ -91,9 +81,9 @@ a:active{text-decoration:none;color:none;}
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-
 #item_box {
 	width: 48.5%;
+
 	height: 125px;
 	margin-bottom: 30px;
 	display: inline-block;
@@ -104,6 +94,9 @@ a:active{text-decoration:none;color:none;}
 
 }
 
+#item_box:hover {
+	color: #EED484;
+}
 #title {
 	font-size: 25px;
 	letter-spacing: 3px;
@@ -126,6 +119,12 @@ a:active{text-decoration:none;color:none;}
 	text-align: center;
 }
 
+#mob_display {
+	display:none;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
 
 
 
@@ -147,8 +146,30 @@ a:active{text-decoration:none;color:none;}
 
 
 
+@media (max-width: 1240px) {
+	#item_box {
+		height: 200px;
+	 }
+	 #display {
+		 display: none;
+	 }
+	 #mob_display {
+		 display: block;
+	 }
+	 .left_box {
+	 	margin-right: 0px;
+	 }
+	 .right_box {
+	 	margin-left: 0px;
+	 }
+}
 
 
+@media (max-width: 730px) {
+	#splash {
+		font-size: 20px;
+	 }
+}
 
 
 
