@@ -1,3 +1,4 @@
+//Toggle dropdown
 $( "#nav_option_small" ).click(function() {
 $( "#dropdown" ).toggle();
 });
@@ -15,6 +16,7 @@ $(window).on('scroll',function(){
       $('#spacer').addClass('shrink');
       
       $('#nav_option').addClass('spacing');
+      $('#nav_option1').addClass('spacing');
       $('#nav_option2').addClass('spacing');
       $('#nav_option3').addClass('spacing');
       $('#nav_option4').addClass('spacing');
@@ -23,6 +25,7 @@ $(window).on('scroll',function(){
       $('#nav_option_small').addClass('spacing');
       
       $('#nav_divide').addClass('space');
+      $('#nav_divide1').addClass('space');
       $('#nav_divide2').addClass('space');
       $('#nav_divide3').addClass('space');
       $('#nav_divide4').addClass('space');
@@ -34,6 +37,7 @@ $(window).on('scroll',function(){
       $('#spacer').removeClass('shrink');
       
       $('#nav_option').removeClass('spacing');
+      $('#nav_option1').removeClass('spacing');
       $('#nav_option2').removeClass('spacing');
       $('#nav_option3').removeClass('spacing');
       $('#nav_option4').removeClass('spacing');
@@ -42,6 +46,7 @@ $(window).on('scroll',function(){
       $('#nav_option_small').removeClass('spacing');
       
       $('#nav_divide').removeClass('space');
+      $('#nav_divide1').removeClass('space');
       $('#nav_divide2').removeClass('space');
       $('#nav_divide3').removeClass('space');
       $('#nav_divide4').removeClass('space');

@@ -1,0 +1,111 @@
+#footer {
+  width: 100%;
+  background-color: #C8102E;
+  text-transform: uppercase;
+}
+#squeeze {
+	width: 85%;
+	max-width: 1200px;
+	color: white;
+  padding-top: 30px;
+}
+#holder {
+  width: 33%;
+  height: 200px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+  color: #EED484;
+  text-align: left;
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+#lower {
+  font-size: 15px;
+  margin-top: 10px;
+}
+/*-- Footer Title Modifiers --*/
+/*----------------------------------------------------------------------------*/
+.footer_img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+#push {
+  margin-right: 1px;
+  display: inline;
+}
+/*-- Footer text --*/
+/*----------------------------------------------------------------------------*/
+#footer_title {
+  padding-top: 10px;
+  vertical-align: top;
+  padding-bottom: 10px;
+  display: inline-block;
+  border-top: 1px solid #C8102E;
+  border-bottom: 1px solid #C8102E;
+}
+#footer_lower {
+  font-size: 13px;
+  padding-top: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+#footer_option {
+  color: #EED484;
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #C8102E;
+  border-bottom: 1px solid #C8102E;
+}
+#footer_option:hover {
+  border-bottom: 1px solid #EED484;
+}
+/*-- Modifying classes --*/
+/*----------------------------------------------------------------------------*/
+.color {margin-right: 10px;}
+.color:hover {color: white;}
+.float_left {float: left;}
+.float_right {float: right;}
+/*-- Mobile Responsive --*/
+/*----------------------------------------------------------------------------*/
+@media (max-width: 1350px) {
+  #holder {
+    width: 30%;
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 1050px) {
+  #holder {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  #footer_title {
+    display: block;
+  }
+  #footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .float_left {float: none;}
+  .float_right {float: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- EOF --*/
