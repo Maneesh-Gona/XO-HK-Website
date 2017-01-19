@@ -5,20 +5,20 @@
 }
 #squeeze {
 	width: 85%;
-	max-width: 1200px;
 	color: white;
   padding-top: 30px;
+  max-width: 1200px;
 }
 #holder {
   width: 33%;
-  height: 200px;
-  display: inline-block;
   margin: 0px;
-  vertical-align: top;
+  height: 200px;
   color: #EED484;
-  text-align: left;
   font-size: 17px;
+  text-align: left;
   letter-spacing: 3px;
+  vertical-align: top;
+  display: inline-block;
 }
 #lower {
   font-size: 15px;
@@ -93,19 +93,3 @@
   .float_left {float: none;}
   .float_right {float: none;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-- EOF --*/
