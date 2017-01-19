@@ -7,7 +7,9 @@ A website for Chi Omega | Eta Kappa in Rolla Missouri. This new website is built
 ## Contributors
 
 Communication: @mg9p8
+
 Front End Lead: @sbqd2
+
 Back End Lead: @cdmfk6
 
 ## License
