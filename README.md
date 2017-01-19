@@ -1,11 +1,16 @@
 # Chi Omega | Eta Kappa | Website
-![Image of ChiO Crest](https://static.wixstatic.com/media/cdccd8_da32eb7eb6684e178d5cdfb05a036ce4.png/v1/fill/w_299,h_283,al_c,usm_0.66_1.00_0.01/cdccd8_da32eb7eb6684e178d5cdfb05a036ce4.png)
 
-### Synopsis
-Basically combining 4 websites into 1.
+## Synopsis
 
-### Front-End
-Lead by @mg9p8
+A website for Chi Omega | Eta Kappa in Rolla Missouri. This new website is built to increase in-house productivity and help inform other of their purpose.
 
-### Back-End
-Combined effort from @cdmfk6 and @sbqd2
+## Contributors
+
+Communication: @mg9p8
+Front End Lead: @sbqd2
+Back End Lead: @cdmfk6
+
+## License
+
+A short snippet describing the license (MIT, Apache, etc.)
+
