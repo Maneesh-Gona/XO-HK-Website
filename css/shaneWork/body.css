@@ -13,15 +13,27 @@ a:link{text-decoration:none;color:none;}
 a:visited{text-decoration:none;color:none;}
 a:hover{text-decoration:none;color:none;}
 a:active{text-decoration:none;color:none;}
-/*-- Above footer directions --*/
+/*-- Dividers --*/
 /*----------------------------------------------------------------------------*/
-#directions_container {
+#light_box {
 	width: 100%;
-	max-width: 1200px;
-	background-color: red;
+	background-color: #F5F5F5;
+	color: #C8102E;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
-
+#dark_box {
+	width: 100%;
+	background-color:;
+	color: #EED484;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#tighten {
+	width: 85%;
+	text-align: left;
+	max-width: 1200px;
+}
 
 
 

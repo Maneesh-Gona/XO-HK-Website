@@ -72,7 +72,6 @@
   border-bottom: 1px solid #C8102E;
 }
 .option_styles:hover {
-  color: white;
   color: #EED484;
   border-bottom: 1px solid  #EED484; 
 }
@@ -111,10 +110,6 @@
   display: inline-block;
   border-top: 1px solid #C8102E;
   border-bottom: 1px solid #C8102E;
-}
-.divide_styles:hover {
-  color: #EED484;
-  border-bottom: 1px solid  #EED484; 
 }
 #nav_divide {margin-top: 30px;}
 #nav_divide1 {margin-top: 30px;}
