@@ -1,6 +1,6 @@
 //Toggle dropdown
 $( "#nav_option_small" ).click(function() {
-$( "#dropdown" ).toggle();
+$( "#m_dropdown" ).toggle();
 });
 //When to change css
 var mainbottom = 1;
@@ -53,3 +53,23 @@ $(window).on('scroll',function(){
       $('#nav_divide4').removeClass('space');
     }
   });
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

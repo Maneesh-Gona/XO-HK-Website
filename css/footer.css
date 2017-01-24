@@ -13,7 +13,18 @@
   width: 33%;
   margin: 0px;
   height: 200px;
-  color: #EED484;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  letter-spacing: 3px;
+  vertical-align: top;
+  display: inline-block;
+}
+#holder_r {
+  width: 20%;
+  margin: 0px;
+  height: 200px;
+  color: white;
   font-size: 17px;
   text-align: left;
   letter-spacing: 3px;
@@ -52,7 +63,7 @@
   display: inline-block;
 }
 #footer_option {
-  color: #EED484;
+  color: white;
   display: inline;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -60,7 +71,20 @@
   border-bottom: 1px solid #C8102E;
 }
 #footer_option:hover {
+  color: #EED484;
   border-bottom: 1px solid #EED484;
+}
+#footer_option_dsp {
+  color: white;
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid #C8102E;
+  border-bottom: 1px solid #C8102E;
+}
+#footer_option_dsp:hover {
+  color: #2ECC71;
+  border-bottom: 1px solid #2ECC71;
 }
 /*-- Modifying classes --*/
 /*----------------------------------------------------------------------------*/
@@ -76,9 +100,19 @@
     font-size: 15px;
     letter-spacing: 0px;
   }
+  #holder_r {
+    width: 20%;
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
 }
 @media (max-width: 1050px) {
   #holder {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  #holder_r {
     float: none;
     width: 100%;
     display: block;

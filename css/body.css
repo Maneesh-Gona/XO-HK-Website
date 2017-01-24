@@ -1,0 +1,175 @@
+/*-- Generic Styles --*/
+/*----------------------------------------------------------------------------*/
+body {
+	background-color: white;
+	margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: black;
+    
+}
+
+body.scroll {
+	overflow: visible;
+}
+
+a:link{text-decoration:none;color:none;}
+a:visited{text-decoration:none;color:none;}
+a:hover{text-decoration:none;color:none;}
+a:active{text-decoration:none;color:none;}
+
+/*-- Selection Styles --*/
+::selection {background-color: #C8102E; color:white;}
+::-moz-selection {background-color: #C8102E;  color:white;}
+::-o-selection {background-color: #C8102E;  color:white;}
+::-ms-selection {background-color: #C8102E;  color:white;}
+::-webkit-selection {background-color: #C8102E;  color:white;}
+/*-- Dividers --*/
+/*----------------------------------------------------------------------------*/
+.sh_main {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+}
+.sh_main_bg {
+	background-image: url("../img/main_light.jpg");
+	background-position: center;
+	background-size: cover;
+}
+#hold {
+	width: 100%;
+}
+#color_hold {
+	margin-top: 20px;
+	width: 100%;
+	background-color: #C8102E;
+}
+#splash {
+	width: 85%;
+	max-width: 1200px;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: #C8102E;
+	font-family: 'Open Sans', sans-serif;
+ }
+ #splash_title {
+ 	width: 85%;
+ 	max-width: 1200px;
+ 	font-size: 30px;
+ 	text-align: left;
+ 	color: #C8102E;
+	background-color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: -20px;
+  }
+
+.fadeInBlock {
+    opacity:0;
+}
+
+
+
+#value {
+	width: 45%;
+	background-color: #C8102E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	margin-bottom: -10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#v_header {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+#v_space {
+	height: 30px;
+	width: 1px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#v_lower {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: white;
+	font-size: 30px;
+	height: 290px;
+}
+
+#v_space_lower {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 730px) {
+	#splash {
+		font-size: 20px;
+	 }
+}
+
+
+
+
+
+/* EOF */
