@@ -173,6 +173,7 @@ a:active{text-decoration:none;color:none;}
 		height: auto;
 		min-width: 1px;
 		overflow: auto;
+		text-align: center;
 	 }
 	 #value_icon {
 	 	width: 150px;
@@ -183,13 +184,13 @@ a:active{text-decoration:none;color:none;}
 	 	vertical-align: top;
 	 	width: 70%;
 	 	display: inline-block;
-		float: left;
+
 	 }
 
 	 #value_title {
 	 	display: inline-block;
 	 	vertical-align: top;
-	 	margin-left: 20px;
+	 	margin-left: 0px;
 	 	font-family: 'Montserrat', sans-serif;
 	 	text-transform: uppercase;
 	 	letter-spacing: 2px;
@@ -199,7 +200,7 @@ a:active{text-decoration:none;color:none;}
 	 #lower_value {
 	 	display: inline-block;
 	 	font-size: 18px;
-	 	margin-left: 20px;
+	 	margin-left: 0px;
 	 	float: right;
 	 }
 
