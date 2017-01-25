@@ -7,7 +7,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	color: black;
-    
 }
 
 body.scroll {
@@ -25,6 +24,7 @@ a:active{text-decoration:none;color:none;}
 ::-o-selection {background-color: #C8102E;  color:white;}
 ::-ms-selection {background-color: #C8102E;  color:white;}
 ::-webkit-selection {background-color: #C8102E;  color:white;}
+
 /*-- Dividers --*/
 /*----------------------------------------------------------------------------*/
 .sh_main {
@@ -72,46 +72,74 @@ a:active{text-decoration:none;color:none;}
 }
 
 
-
-#value {
-	width: 45%;
-	background-color: #C8102E;
-	padding-top: 10px;
-	padding-bottom: 10px;
+#value_box {
 	color: white;
-	margin-bottom: -10px;
+	width: 48%;
+	display: inline-block;
+	text-align: left;
+	min-width: 500px;
+		overflow: auto;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+#value_icon {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+
+#value_other {
+	vertical-align: top;
+	width: 60%;
+	display: inline-block;
+}
+
+#value_title {
 	display: inline-block;
 	vertical-align: top;
-}
-
-#v_header {
-	width: 100%;
+	margin-left: 20px;
 	font-family: 'Montserrat', sans-serif;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	text-transform: uppercase;
-	font-size: 30px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
+
 }
 
-#v_space {
-	height: 30px;
-	width: 1px;
-	margin-right: 10px;
+#lower_value {
 	display: inline-block;
+	font-size: 18px;
+	margin-left: 20px;
+	float: right;
 }
 
-#v_lower {
-	padding-top: 15px;
-	padding-bottom: 20px;
-	color: white;
-	font-size: 30px;
-	height: 290px;
+.v_image {
+	background-position: center;
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
 }
 
-#v_space_lower {
-	margin-left: 10px;
-	margin-right: 10px;
+.profile {
+	background-image: url("../img/icons/profile.png");
+}
+
+.sisterhood {
+	background-image: url("../img/icons/user.png");
+}
+
+.dev {
+	background-image: url("../img/icons/briefcase.png");
+}
+
+.sinc {
+	background-image: url("../img/icons/agenda.png");
+}
+
+.serv {
+	background-image: url("../img/icons/worldwide.png");
+}
+
+.part {
+	background-image: url("../img/icons/megaphone.png");
 }
 
 
@@ -138,27 +166,44 @@ a:active{text-decoration:none;color:none;}
 
 
 
+@media (max-width: 1444px) {
+	#value_box {
+		width: 100%;
+		display: block;
+		height: auto;
+		min-width: 1px;
+		overflow: auto;
+	 }
+	 #value_icon {
+	 	width: 150px;
+	 	height: 150px;
+	 	display: inline-block;
+	 }
+	 #value_other {
+	 	vertical-align: top;
+	 	width: 70%;
+	 	display: inline-block;
+		float: left;
+	 }
 
+	 #value_title {
+	 	display: inline-block;
+	 	vertical-align: top;
+	 	margin-left: 20px;
+	 	font-family: 'Montserrat', sans-serif;
+	 	text-transform: uppercase;
+	 	letter-spacing: 2px;
 
+	 }
 
+	 #lower_value {
+	 	display: inline-block;
+	 	font-size: 18px;
+	 	margin-left: 20px;
+	 	float: right;
+	 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
