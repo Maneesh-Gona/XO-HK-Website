@@ -14,26 +14,47 @@ This project is Chi Omega Eta Kappa's website.
 
 ###Checklist
 
--[x] Complete
--[ ] Incomplete
+* [x] Complete
+* [ ] Incomplete
 
--[ ] All page features
-  -[ ] Navigation bar
-  -[ ] Mobile navigation bar
--[ ] Home page
--[ ] About page
--[ ] Recruitment page
--[ ] Philanthropy page
--[ ] Sisterhood page
--[ ] Contact page
-
-
-
-
-
-
-
-
+* [ ] All page features
+  * [ ] Navigation bar
+  * [ ] Mobile navigation bar
+  * [ ] Footer
+  * [ ] Mobile footer
+  * [ ] Header contents
+  * [ ] JS includes
+  * [ ] Analytics include
+* [ ] Home page
+  * [ ] Feature includes
+  * [ ] Landing image and words
+  * [ ] Quick quote
+  * [ ] Six values
+  * [ ] Two call to actions
+* [ ] About page
+  * [ ] Feature includes
+  * [ ] Images
+  * [ ] About blurb
+  * [ ] Two related call to actions
+* [ ] Recruitment page
+  * [ ] Feature includes
+  * [ ] Images
+  * [ ] Recruitment blurb
+  * [ ] Two related call to actions
+* [ ] Philanthropy page
+  * [ ] Feature includes
+  * [ ] Images
+  * [ ] Philanthropy blurb
+  * [ ] Two related call to actions
+* [ ] Sisterhood page
+  * [ ] Feature includes
+  * [ ] Images
+  * [ ] Sisterhood blurb
+  * [ ] Two related call to actions
+* [ ] Contact page
+  * [ ] Feature includes
+  * [ ] Contact form
+  * [ ] Two related call to actions
 
 ###Contributing
 
