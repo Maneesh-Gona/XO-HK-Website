@@ -7,14 +7,33 @@ This project is Chi Omega Eta Kappa's website.
 ###Goals
 
 * Redesign front-end
-
-..* Make mobile friendly
-
-..* Build with recruitment in mind
-
+  * Make mobile friendly
+  * Build with recruitment in mind
 * Build new back-end
+  * Features include laundry, sobers, meals, roster
 
-..* Features include laundry, sobers, meals, roster
+###Checklist
+
+-[x] Complete
+-[ ] Incomplete
+
+-[ ] All page features
+  -[ ] Navigation bar
+  -[ ] Mobile navigation bar
+-[ ] Home page
+-[ ] About page
+-[ ] Recruitment page
+-[ ] Philanthropy page
+-[ ] Sisterhood page
+-[ ] Contact page
+
+
+
+
+
+
+
+
 
 ###Contributing
 
@@ -34,4 +53,4 @@ Back-end lead: @cdmfk6
 
 ###License
 
-I have no clue what goes here
+The MIT License (MIT)
