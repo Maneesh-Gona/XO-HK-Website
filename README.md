@@ -7,9 +7,13 @@ This project is Chi Omega Eta Kappa's website.
 ###Goals
 
 * Redesign front-end
+
 ..* Make mobile friendly
+
 ..* Build with recruitment in mind
+
 * Build new back-end
+
 ..* Features include laundry, sobers, meals, roster
 
 ###Contributing
@@ -23,7 +27,9 @@ This project is Chi Omega Eta Kappa's website.
 ###Credits
 
 Project lead: @maneesh-gona
+
 Front-end lead: @shanebodimer
+
 Back-end lead: @cdmfk6
 
 ###License
