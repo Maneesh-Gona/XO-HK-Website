@@ -3,15 +3,18 @@
   <!-- Meta and Info -->
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width; initial-scale=1; user-scalable=no">
      <meta name="description" content="Welcome to the Eta Kappa Chapter of Chi Omega. Our members enjoy spending time together whether it is an intramural softball game or Cardinals versus Royals baseball game. Chi Omega has enhanced all of our members' college experience. Eta Kappa hopes we can show how much we have gained from this amazing sisterhood and the values we have learned making each member a better version of themselves.">
      <meta name="keywords" content="chi omega, chi, omega, eta kappa, eta, kappa, rolla, Missouri S T, engineer, engineering, science, technology, sorority">
      <title>Chi Omega | Eta Kappa</title>
      <!-- Imports -->
-     <link href="css/master.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+     <link rel="stylesheet" type="text/css" href="css/changes.css">
+     <link rel="stylesheet" type="text/css" href="css/revealer.css">
      <script src="https://use.fontawesome.com/86715113c8.js"></script>
      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-     <!-- Favicon -->
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <!-- Favicon -->
      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
      <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
      <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
@@ -22,245 +25,171 @@
      <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <!-- Large Navigation -->
-  <div id="header" class="animate">
-    <center>
-      <div id="navigation">
-        <img src="img/crest.png" class="nav_img left animate">
-        <a href="">
-            <div id="nav_option" class="left animate option_styles">Chi Omega | Eta Kappa</div>
-        </a>
-        <div id="large_menu_items">
-          <a href="">
-              <div id="nav_option1" class="right animate log_in_styles"><i class="fa fa-sign-in"></i></div>
-          </a>
-            <div id="nav_divide" class="right animate divide_styles">|</div>
-          <a href="">
-              <div id="nav_option2" class="right animate option_styles">Contact</div>
-          </a>
-            <div id="nav_divide1" class="right animate divide_styles">|</div>
-          <a href="">
-              <div id="nav_option3" class="right animate option_styles">Sisterhood</div>
-          </a>
-            <div id="nav_divide2" class="right animate divide_styles">|</div>
-          <a href="">
-              <div id="nav_option4" class="right animate option_styles">Philanthropy</div>
-          </a>
-            <div id="nav_divide3" class="right animate divide_styles">|</div>
-          <a href="">
-              <div id="nav_option5" class="right animate option_styles">Recruitment</div>
-          </a>
-            <div id="nav_divide4" class="right animate divide_styles">|</div>
-          <a href="">
-              <div id="nav_option6" class="right animate option_styles">About</div>
-          </a>
-        </div>
-        <div id="small_menu_items">
-          <div id="nav_option_small" class="right animate option_styles">Menu</div>
-        </div>
-      </div>
-    </center>
-    <!-- Mobile -->
-    <div id="m_dropdown" class="animate">
-        <center>
-          <div id="mobile_hold">
-            <div id="drop_item_top">about</div>
-            <div id="drop_item">Recruitment</div>
-            <div id="drop_item">Philanthropy</div>
-            <div id="drop_item">Sisterhood</div>
-            <div id="drop_item">Contact</div>
-            <div id="drop_item_bottom"><i class="fa fa-sign-in"></i></div>
-          </div>
-        </center>
-      </div>
-  </div>
-
   
-<!-- Landing Page Image -->
-<div class="sh_main sh_main_bg push_back">
-    <section class="content content--full flexy intro">
-      <h2 class="content__title content__title--center">
-        <div id="rev-1" class="content__title__inner">Become</div><br/>
-        <div id="rev-2" class="content__title__inner content__title__inner--offset-1">Inspired</div>
-      </h2>
-    </section>
-</div>
-
-<div id="hold">
-<center>
-  <div id="splash">
-    <b><i>Chi Omega</i></b> is group of excited and passionate young women who strive everyday to live their lives based on the principles Chi Omega has taught them.
-  </div>
-</center>
-</div>
-
-<center>
-<div id="color_hold">
-<center>
-  <div id="splash" style="margin-top:-40px;color:white;">
-    <b><i>Our Values</i></b>
-  </div>
-</center>
-
-
-<center>
-  <div id="splash" style="margin-top: -40px;background-color:#C8102E;">
-  <center>
-    <div id="value_box" class="fadeInBlock animate"> 
-      <div id="value_icon" class="profile v_image animate"></div>
-      <div id="value_other" class="animate">
-        <div id="value_title" class="animate">Friendship</div>
-        <div id="lower_value">Friendship is what binds us to each other and to our Fraternity. The friendships we develop in Chi Omega give us a home across geography and generations and give us lasting support throughout our lives.</div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top navbar-top animate">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-area" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar top-color-icon"></span>
+          <span class="icon-bar top-color-icon"></span>
+          <span class="icon-bar top-color-icon"></span>
+        </button>
+        <a class="navbar-brand animate top-color" href="#">
+          <span><img src="img/small.png"></span> Chi Omega<span class="mobile-remove"> | Eta Kappa</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse animate" id="navbar-area">
+        <ul class="nav navbar-nav navbar-right animate top-color hov">
+          <li class="link-hover animate"><a href="#" class="animate">About</a></li>
+          <li class="link-hover animate"><a href="#" class="animate">Recruitment</a></li>
+          <li class="link-hover animate"><a href="#" class="animate">Philanthropy</a></li>
+          <li class="link-hover animate"><a href="#" class="animate">Sisterhood</a></li>
+          <li class="link-hover animate"><a href="#" class="animate">Contact</a></li>
+        </ul>
       </div>
     </div>
-    
-    <div id="value_box" class="fadeInBlock animate"> 
-      <div id="value_icon" class="sisterhood v_image"></div>
-      <div id="value_other">
-        <div id="value_title">Sisterhood</div>
-        <div id="lower_value">Sisterhood means that we are women of integrity and good character. We have high expectations for ourselves and for our sisters. We strive daily to be role models to others.</div>
-      </div>
-    </div>
-    
-    <div id="value_box" class="fadeInBlock animate"> 
-      <div id="value_icon" class="sinc v_image animate"></div>
-      <div id="value_other" class="animate">
-        <div id="value_title" class="animate">Sincere Learning</div>
-        <div id="lower_value">Sincere Learning means that we care about our intellectual development. We embrace the spirit and excitement of learning throughout our lives and encourage others to better themselves.</div>
-      </div>
-    </div>
-    
-    <div id="value_box" class="fadeInBlock animate"> 
-      <div id="value_icon" class="part v_image"></div>
-      <div id="value_other">
-        <div id="value_title">Participation</div>
-        <div id="lower_value">Participation develops us into well-rounded people. We engage with others to develop outside interests and expose us to new and differing points of view. By contributing in the larger world, we demonstrate that Chi Omega makes a difference in the lives of women.</div>
-      </div>
-    </div>
-    
-    <div id="value_box" class="fadeInBlock animate"> 
-      <div id="value_icon" class="serv v_image animate"></div>
-      <div id="value_other" class="animate">
-        <div id="value_title" class="animate">Service</div>
-        <div id="lower_value">Service means that we want to make a difference on our campuses and in our communities. We know that giving back to others unselfishly makes the world a better place and makes us better people. Serving and giving helps to connect us. </div>
-      </div>
-    </div>
-    
-    <div id="value_box" class="fadeInBlock animate"> 
-      <div id="value_icon" class="dev v_image"></div>
-      <div id="value_other">
-        <div id="value_title">Development</div>
-        <div id="lower_value">Development prepares us for life’s work and makes us marketable regardless of the path we choose. Sisters serve as mentors and coaches along the way. Chi Omega promotes personal growth and teaches us to work earnestly at whatever we choose to do.</div>
-      </div>
-    </div>    
-  </center>
-</div>
-</div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-
-<!-- Footer -->
-<div id="footer"><center><div id="squeeze">
-  <div id="holder" class="animate float_left">  
-    <img src="img/crest.png" class="footer_img"><div id="footer_title">Chi Omega | Eta Kappa</div>
-    <div id="footer_lower">
-        <a href=""><div id="footer_option" class="animate">About</div></a> | 
-        <a href=""><div id="footer_option" class="animate">Recruitment</div></a> | 
-        <a href=""><div id="footer_option" class="animate">Contact</div></a>
-    </div>
-    <div style="height:10px"></div>
-    <div id="footer_lower">
-        <a href=""><div id="footer_option" class="animate">Philanthropy</div></a> | 
-        <a href=""><div id="footer_option" class="animate">sisterhood</div></a>
-    </div>
-    <div style="height:10px"></div>
-    <div id="footer_lower">
-      <div id="push">&#169; 2017</div> | 
-      <a href="https://www.deltasig-de.org/" target="blank"><div id="footer_option_dsp" class="animate">Built by ΔΣΦ | ΔΕ</div></a>
-    </div>
-  </div>  
-  <div id="holder" class="animate">
-    <div style="display:inline-block;height:50px;width:1px;margin-right:-2px;"></div><div id="footer_title" style="margin-right:10px">Get in touch</div>
-      <div id="footer_lower">
-          <a href="https://www.google.com/maps/place/1607+N+Pine+St,+Rolla,+MO+65401/@37.9566685,-91.7732756,17z/data=!3m1!4b1!4m5!3m4!1s0x87da54b7a99cfda7:0x8d826038055c64a7!8m2!3d37.9566685!4d-91.7710816" target="blank"><div id="footer_option" class="animate">1607 N Pine St, Rolla, MO 65401</div></a>
-      </div>
-      <div style="height:10px"></div>
-      <div id="footer_lower">
-        <a href=""><div id="footer_option" class="animate">Visit contact page</div></a>
-      </div>
-      <div style="height:10px"></div>
-      <div id="footer_lower">
-        <a href="tel:5733646993"><div id="footer_option" class="animate">(573) 364-6993</div></a>
-      </div>
-  </div>
-  <div id="holder_r" class="animate float_right">
-    <div style="display:inline-block;height:50px;width:1px;margin-right:-2px;"></div><div id="footer_title" style="margin-bottom:-15px;">Connect</div><br>
-    <div id="footer_lower">
-        <a href="https://www.facebook.com/ChiOmegaHK" target="blank"><div id="footer_option" class="animate"><i class="fa fa-facebook"></i> Facebook</div></a>
-    </div>
-    <div style="height:10px"></div>
-    <div id="footer_lower">
-        <a href="https://www.instagram.com/etakappachiomega/" target="blank"><div id="footer_option" class="animate"><i class="fa fa-instagram"></i> Instagram</div></a>
-    </div>
-    <div style="height:10px"></div>
-    <div id="footer_lower">
-      <a href="https://twitter.com/ChiOmegaHK" target="blank"><div id="footer_option" class="animate"><i class="fa fa-twitter"></i> Twitter</div></a>
+  </nav>
+  
+  <!-- Landing Image -->
+  <div class="landing-image vertical-center animate">
+    <div class="landing-words animate">
+      <div id="rev-1" class="become large-words animate">Become</div>
+      <div id="rev-2" class="inspired large-words animate">Inspired</div>
     </div>
   </div>
-</div></center></div>
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-<script src="js/shaneWork.js"></script>
-<script src="js/anime.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/fade.js"></script>
-<script>
-(function() {
-  // Fake loading.
-  setTimeout(init, 1);
-  function init() {
-    document.body.classList.remove('loading');
-    var rev1 = new RevealFx(document.querySelector('#rev-1'), {
-      revealSettings : {
-        bgcolor: '#C8102E',
-        onCover: function(contentEl, revealerEl) {
-          contentEl.style.opacity = 1;
+  
+  <div class="value-holder">
+  <div class="container values">
+      <center>
+      <div class="value-box-large">
+        <div class="value-icon color" style="width:200px;height:200px;"></div>
+      <div class="value-about" style="font-size:20px;"><center>
+      <font color="#c8102e">Chi Omega</font> is group of excited and passionate young women who strive everyday to live our lives based on the principles Chi Omega has taught us. Founded in 1979, we are proud to call Eta Kappa our home. We hope to share our principles for which we stand, our rich tradition and everlasting friendships that are developed based on the bonds of sisterhood.
+      </center></div>
+      </div>
+
+  </div>
+  </div>
+  
+  <!-- Values -->
+  <div class="value-holder">
+  <div class="container values">
+    
+    <div class="value-box left">
+      <div class="value-icon friend"></div>
+      <div class="value-title">Friendship</div>
+      <div class="value-about">Friendship is what binds us to each other and to our Fraternity. The friendships we develop in Chi Omega give us a home across geography and generations and give us lasting support throughout our lives.</div>
+    </div>
+    
+    <div class="value-box right">
+      <div class="value-icon sister"></div>
+      <div class="value-title">Sisterhood</div>
+      <div class="value-about">Sisterhood means that we are women of integrity and good character. We have high expectations for ourselves and for our sisters. We strive daily to be role models to others.</div>
+    </div>
+    
+    <div class="value-box left">
+      <div class="value-icon serv"></div>
+      <div class="value-title">Service</div>
+      <div class="value-about">Service means that we want to make a difference on our campuses and in our communities. We know that giving back to others unselfishly makes the world a better place and makes us better people. Serving and giving helps to connect us.</div>
+    </div>
+    
+    <div class="value-box right">
+      <div class="value-icon dev"></div>
+      <div class="value-title">Development</div>
+      <div class="value-about">Development prepares us for life’s work and makes us marketable regardless of the path we choose. Sisters serve as mentors and coaches along the way. Chi Omega promotes personal growth and teaches us to work earnestly at whatever we choose to do.</div>
+    </div>
+    
+    <div class="value-box left">
+      <div class="value-icon partic"></div>
+      <div class="value-title">Participation</div>
+      <div class="value-about">Participation develops us into well-rounded people. We engage with others to develop outside interests and expose us to new and differing points of view. By contributing in the larger world, we demonstrate that Chi Omega makes a difference in the lives of women.</div>
+    </div>
+    
+    <div class="value-box right">
+      <div class="value-icon learn"></div>
+      <div class="value-title">Sincere Learning</div>
+      <div class="value-about">Sincere Learning means that we care about our intellectual development. We embrace the spirit and excitement of learning throughout our lives and encourage others to better themselves.</div>
+    </div>
+  </div>
+  </div>
+    
+  <div class="value-holder">
+  <div class="container values butts">
+    
+    <center>
+    <div class="button-box left animate">
+      <div class="butt-image"></div>
+      <div class="value-title"><font size="4" color="#6b7c93">Learn about</font><br>Recruitment</div>
+      <div class="butt-about">Formal recruitment at Missouri S&T is an exciting and rewarding experience. The week of recruitment is designed so that...</div>
+    </div>
+    </center>
+    
+    <center>
+    <div class="button-box right animate">
+      <div class="butt-image2"></div>
+      <div class="value-title"><font size="4" color="#6b7c93">reach out and</font><br>get in touch</div>
+      <div class="butt-about">Visit out contact page and say hello to any of the girls. Our team is always prepared to hear what you have to say. By visiting...</div>
+    </div>
+    </center>
+    
+  </div>
+  </div>
+
+   
+  
+  <!-- Space -->
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+
+
+  <!-- JS Include -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/other.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/anime.min.js"></script>
+  <script>
+  (function() {
+    // Fake loading.
+    setTimeout(init, 500);
+
+    function init() {
+      document.body.classList.remove('loading');
+
+      //************************ Example 1 - reveal on load ********************************
+      
+      var rev1 = new RevealFx(document.querySelector('#rev-1'), {
+        revealSettings : {
+          bgcolor: '#c8102e',
+          onCover: function(contentEl, revealerEl) {
+            contentEl.style.opacity = 1;
+          }
         }
-      }
-    });
-    rev1.reveal();
-    var rev2 = new RevealFx(document.querySelector('#rev-2'), {
-      revealSettings : {
-        bgcolor: '#C8102E',
-        delay: 250,
-        onCover: function(contentEl, revealerEl) {
-          contentEl.style.opacity = 1;
-        }
-      }
-    });
-    rev2.reveal();
-    var rev3 = new RevealFx(document.querySelector('#rev-3'), {
-      revealSettings : {
-        bgcolor: '#EED484',
-        delay: 500,
-        onCover: function(contentEl, revealerEl) {
-          contentEl.style.opacity = 1;
-        }
-      }
-    });
-    rev3.reveal();
-  }
-})();
-</script>
+      });
+      rev1.reveal();
 
+      var rev2 = new RevealFx(document.querySelector('#rev-2'), {
+        revealSettings : {
+          bgcolor: '#c8102e',
+          delay: 250,
+          onCover: function(contentEl, revealerEl) {
+            contentEl.style.opacity = 1;
+          }
+        }
+      });
+      rev2.reveal();
+      
+    }
+  })();
+  </script>
+  
 </body>
 </html>
