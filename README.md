@@ -14,9 +14,6 @@ This project is Chi Omega Eta Kappa's website.
 
 ###Checklist
 
-* [x] Complete
-* [ ] Incomplete
-
 * [ ] All page features
   * [ ] Navigation bar
   * [ ] Mobile navigation bar
