@@ -74,12 +74,6 @@ a:active { text-decoration: none; }
   border-bottom: 2px solid transparent;
   font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
-
-
 .nav-activate {
   display: none;
   padding-top: 11px;
@@ -100,33 +94,10 @@ a:active { text-decoration: none; }
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
 }
-
 .nav-mobile-item {
   color: white;
   margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Scroll additions */
 .nav-full-top {
   padding-top: 40px;
   padding-bottom: 40px;
