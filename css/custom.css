@@ -1,10 +1,9 @@
 /* Testing Divs */
 /* -------------------------------------------------------------------------- */
-#header-image-block {
-  width: 100%;
-  height: 800px;
-  background-color: #3498db;
-}
+
+
+
+
 /* General */
 /* -------------------------------------------------------------------------- */
 body {
@@ -32,6 +31,7 @@ a:active { text-decoration: none; }
 .nav-full {
   width: 100%;
   position: fixed;
+  z-index: 1000;
 }
 .nav-holder {
   width: 100%;
@@ -120,7 +120,6 @@ a:active { text-decoration: none; }
 .nav-item-hover-scroll:hover {
   border-bottom: 2px solid #c8102e;
 }
-/* Mobile */
 @media (max-width: 1110px) {
   .nav-item-holder {
     display: none;
@@ -142,6 +141,96 @@ a:active { text-decoration: none; }
     display: none;
   }
 }
+/* Landing image */
+/* -------------------------------------------------------------------------- */
+.landing-image-block {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../img/main_light.jpg");
+}
+#land-word {
+  color: white;
+  font-weight: 700;
+  font-size: 200px;
+}
+#landing-words {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.become {
+  margin-bottom: -60px;
+  margin-left: -120px;
+}
+.inspired {
+  margin-top: -60px;
+  margin-right: -120px;
+}
+@media (max-width: 1110px) {
+  #land-word {
+    font-size: 175px;
+  }
+}
+@media (max-width: 1000px) {
+  #land-word {
+    font-size: 150px;
+  }
+}
+@media (max-width: 825px) {
+  #land-word {
+    font-size: 100px;
+  }
+  .become {
+    margin-bottom: -30px;
+    margin-left: -100px;
+  }
+  .inspired {
+    margin-top: -30px;
+    margin-right: -100px;
+  }
+}
+@media (max-width: 575px) {
+  #land-word {
+    font-size: 75px;
+  }
+  .become {
+    margin-bottom: -10px;
+    margin-left: -50px;
+  }
+  .inspired {
+    margin-top: -10px;
+    margin-right: -50px;
+  }
+}
+@media (max-width: 400px) {
+  #land-word {
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
