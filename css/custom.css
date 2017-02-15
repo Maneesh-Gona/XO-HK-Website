@@ -36,7 +36,6 @@ body {
 .content-holder {
   width: 100%;
   max-width: 1200px;
-
 }
 a:link { text-decoration: none; color: inherit;}
 a:hover { text-decoration: none; color: inherit;}
@@ -51,7 +50,7 @@ a:visited { text-decoration: none; color: inherit;}
 /* -------------------------------------------------------------------------- */
 .main { margin-left: 10px; }
 .nav-color-top { color: white; }
-
+.nav-mobile-item { margin-top: 20px; }
 .nav-color-scrolling { color: #c8102e; }
 .nav-full-color { background-color: white; }
 .nav-item-hover-top:hover { border-bottom: 2px solid white; }
@@ -118,10 +117,6 @@ a:visited { text-decoration: none; color: inherit;}
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
 }
-.nav-mobile-item {
-
-  margin-top: 20px;
-}
 .nav-full-top {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -132,7 +127,6 @@ a:visited { text-decoration: none; color: inherit;}
   background-color: white;
   box-shadow: 0 1px 1px rgba(0,0,0,0.05), 0 1px 1px rgba(0,0,0,0.05);
 }
-
 @media (max-width: 1110px) {
   .nav-item-holder { display: none; }
   .nav-activate { display: inline-block; }
@@ -145,9 +139,7 @@ a:visited { text-decoration: none; color: inherit;}
     padding-bottom: 10px;
   }
 }
-@media (max-width: 540px) {
-  .sub { display: none; }
-}
+@media (max-width: 540px) { .sub { display: none; } }
 /* Landing image */
 /* -------------------------------------------------------------------------- */
 .landing-image-block {
@@ -175,8 +167,8 @@ a:visited { text-decoration: none; color: inherit;}
   transform: translate(-50%, -50%);
 }
 .become {
-  margin-bottom: -60px;
   margin-left: -120px;
+  margin-bottom: -60px;
 }
 .inspired {
   margin-top: -60px;
@@ -185,8 +177,8 @@ a:visited { text-decoration: none; color: inherit;}
 @media (max-width: 1110px) { #land-word { font-size: 150px; } }
 @media (max-width: 1000px) {
   #land-word { font-size: 125px; }
-  .become { margin-bottom: -40px; }
   .inspired { margin-top: -40px;  }
+  .become { margin-bottom: -40px; }
 }
 @media (max-width: 825px) {
   #land-word { font-size: 80px; }
@@ -213,45 +205,82 @@ a:visited { text-decoration: none; color: inherit;}
 @media (max-width: 450px) { #land-word { font-size: 40px; } }
 /* Text below landing */
 /* -------------------------------------------------------------------------- */
-.welcome-holder {
-  padding-top: 40px;
-}
+.welcome-holder { padding-top: 40px; }
 .welcome-large {
+  width: 73%;
   color: #c8102e;
   font-size: 70px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
   font-weight: 700;
-  width: 73%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 .welcome-small {
+  color: #333;
   font-size: 25px;
-  line-height: 38px;
-  text-align: left;
   max-width: 850px;
+  text-align: left;
+  line-height: 38px;
   margin-left: 10px;
   margin-right: 10px;
+}
+@media (max-width: 1050px) { .welcome-large { font-size: 40px; } }
+/* Values */
+/* -------------------------------------------------------------------------- */
+.value-title-word { line-height: 90px; }
+.value-left { float: left; margin-left: 10px;}
+.value-right { float: right; margin-right: 10px; }
+.values-holder { font-size: 20px; }
+.value-box {
+  vertical-align: top;
+  margin-top: 60px;
+  background-color: white;
+  width: 48%;
+  display: inline-block; 
+  border-radius: 4px;
+  text-align: left;
+  box-shadow:  0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)
+}
+.value-content-holder {
+  width: 100%;
+  max-width: 1100px;
+}
+.value-box-title {
+  width: 100%;
+  color: #c8102e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  height: 90px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: left;
+}
+.value-img {
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.value-text-lower {
   color: #333;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  line-height: 30px;
 }
 
 
-@media (max-width: 1050px) {
-  .welcome-large {
-    font-size: 40px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
+.friendship { background-image: url("../img/icons/goal.png"); }
+.sisterhood { background-image: url("../img/icons/team.png"); }
+.learn { background-image: url("../img/icons/idea1.png"); }
+.participation { background-image: url("../img/icons/teamwork.png"); }
+.career { background-image: url("../img/icons/resume.png"); }
+.service { background-image: url("../img/icons/teamwork-1.png"); }
 
 
 
