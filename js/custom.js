@@ -20,8 +20,6 @@ $(window).scroll(function() {
     $(".nav-full").addClass("nav-full-scrolling");
     $(".nav-item").removeClass("nav-item-hover-top");
     $(".nav-item").addClass("nav-item-hover-scroll");
-    
-
   }
   
   //If at top
@@ -40,9 +38,7 @@ $(window).scroll(function() {
     $(".nav-full").addClass("nav-full-top");
     $(".nav-full").removeClass("nav-full-scrolling");
     $(".nav-item").addClass("nav-item-hover-top");
-    $(".nav-item").removeClass("nav-item-hover-scroll");
-    
-  
+    $(".nav-item").removeClass("nav-item-hover-scroll");  
   }
   
 });

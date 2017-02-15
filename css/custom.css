@@ -99,7 +99,6 @@ a:visited { text-decoration: none; }
 }
 .nav-activate {
   float: right;
-  color: white;
   display: none;
   cursor: pointer;
   padding-top: 11px;
@@ -118,7 +117,7 @@ a:visited { text-decoration: none; }
   font-family: 'Montserrat', sans-serif;
 }
 .nav-mobile-item {
-  color: white;
+
   margin-top: 20px;
 }
 .nav-full-top {
@@ -225,11 +224,12 @@ a:visited { text-decoration: none; }
 }
 .welcome-small {
   font-size: 25px;
+  line-height: 38px;
   text-align: left;
   max-width: 900px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #4b5767;
+  color: #333;
 }
 
 
