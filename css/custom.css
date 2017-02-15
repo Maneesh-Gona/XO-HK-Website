@@ -40,7 +40,7 @@ body {
 }
 #block-dark {
   width: 100%;
-  margin-top: 45px;
+
   background-color: white;
 }
 a:link { text-decoration: none; color: inherit;}
@@ -292,13 +292,114 @@ a:visited { text-decoration: none; color: inherit;}
   .value-box { width: 98%; } 
   .value-box-title { height: 50px; }
   .value-title-word { line-height: 50px; }
+  .value-img { width: 50px; height: 50px; }
   .value-left { float: none; margin-left: 0px; margin-right: 0px;}
   .value-right { float: none; margin-right: 0px; margin-left: 0px; }
-  .value-img {
-    width: 50px;
-    height: 50px;
+}
+/* Footer */
+/* -------------------------------------------------------------------------- */
+.extra-box {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.extra-large {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.extra-small {
+  font-size: 15px;
+  display: block;
+}
+.contact-img {
+  background-size: cover;
+  justify-content: center;
+  background-position: center; 
+  background-image:
+    url("../img/contact.jpg"); 
+}
+
+.contact-img:hover { background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/contact.jpg"); }
+.recruit-img {
+  background-size: cover;
+  justify-content: center;
+  background-position: center; 
+  background-image: url("../img/recruit.jpg"); 
+}
+
+.recruit-img:hover { background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/recruit.jpg"); }
+
+
+.top-box {
+  width: 98%;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.top-box-title {
+  width: 98%;
+  color: #c8102e;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.about-img {
+  background-size: cover;
+  justify-content: center;
+  background-position: center; 
+  background-image:
+    url("../img/about.jpg"); 
+}
+
+
+.extra-small-top {
+  font-size: 25px;
+  display: block;
+  width: 75%;
+  text-transform: none;
+}
+.extra-large-top {
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 450px) { 
+  .extra-large {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .extra-large-top {
+    font-size: 30px;
+  }
+  .top-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
