@@ -14,17 +14,17 @@ This project is Chi Omega Eta Kappa's website.
 
 ###Checklist
 
-* [ ] All page features
+* [x] All page features
   * [x] Navigation bar
   * [x] Mobile navigation bar
-  * [ ] Footer
-  * [ ] Mobile footer
+  * [x] Footer
+  * [x] Mobile footer
   * [x] Header contents
   * [x] JS includes
   * [x] Analytics include
 * [ ] Home page
   * [ ] Feature includes
-  * [ ] Landing image and words
+  * [x] Landing image and words
   * [ ] Quick quote
   * [ ] Six values
   * [ ] Two call to actions
