@@ -38,10 +38,10 @@ body {
   max-width: 1200px;
 
 }
-a:link { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
-a:visited { text-decoration: none; }
+a:link { text-decoration: none; color: inherit;}
+a:hover { text-decoration: none; color: inherit;}
+a:active { text-decoration: none; color: inherit;}
+a:visited { text-decoration: none; color: inherit;}
 ::selection { background-color: #c8102e; color: white; }
 ::-o-selection { background-color: #c8102e; color: white; }
 ::-ms-selection { background-color: #c8102e; color: white; }
@@ -51,7 +51,9 @@ a:visited { text-decoration: none; }
 /* -------------------------------------------------------------------------- */
 .main { margin-left: 10px; }
 .nav-color-top { color: white; }
+
 .nav-color-scrolling { color: #c8102e; }
+.nav-full-color { background-color: white; }
 .nav-item-hover-top:hover { border-bottom: 2px solid white; }
 .nav-item-hover-scroll:hover { border-bottom: 2px solid #c8102e; }
 .nav-full {
