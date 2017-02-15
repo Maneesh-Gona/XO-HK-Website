@@ -226,11 +226,24 @@ a:active { text-decoration: none; }
 
 .welcome-holder {
   padding-top: 40px;
+
+}
+.welcome-large {
   color: #c8102e;
   font-size: 70px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 700;
+  width: 73%;
+}
+.welcome-small {
+  font-size: 25px;
+  text-align: left;
+
+  max-width: 900px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #4b5767;
 }
 
 
@@ -269,9 +282,92 @@ a:active { text-decoration: none; }
 
 
 
-
-
-
+/* Footer */
+/* -------------------------------------------------------------------------- */
+.foot-full {
+  width: 100%;
+  border-top: solid 1px  rgba(0,0,0,0.05);
+}
+.foot-holder {
+  width: 100%;
+  max-width: 1200px;
+}
+.box {
+  height: auto;
+  text-align: left;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  align: top;
+}
+.x3 {
+  display: inline-block;
+}
+.left { float: left; margin-left: 10px; }
+.right { float: right; margin-right: 10px; }
+.nav-img-footer {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: cover;
+  vertical-align: middle;
+  background-position: center;
+  background-image: url("../img/small.png");
+}
+.footer-item {
+  color: #c8102e;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: block;
+  padding-top: 15px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-item-link:hover {
+  color: #810a1e;
+}
+.footer-item-link-dsp:hover {
+  color: #104428;
+}
+.footer-margin {
+  margin-left: -5px;
+}
+.footer-item-icon {
+  color: #c8102e;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding-top: 15px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 10px;
+}
+.footer-no-img {
+  width: 1px;
+  height: 40px;
+  margin-right: -1px;
+  display: inline-block;
+  background-size: cover;
+  vertical-align: middle;
+  background-position: center;
+  background-image: url("../img/small-space.png");
+}
+.dsp {
+  color: #1E824C;
+}
+@media (max-width: 950px) {
+  .x3 {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .left {float:none; margin-left: 10px;}
+  .right { float: none; margin-right: 10px}
+  .box {
+    text-align: center;
+  }
+}
 
 
 
