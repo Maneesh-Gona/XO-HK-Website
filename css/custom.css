@@ -1,14 +1,14 @@
-/* 
+/*
    CSS Rules
    1. Seperate features by header
-   2. Only use classes, ids cause too many problems 
+   2. Only use classes, ids cause too many problems
       (I read this in a Medium article and have never questioned it)
-   3. Organize class contents from smallest string to largest  
+   3. Organize class contents from smallest string to largest
    4. Single content classes should be reduced to one line
-   5. Single content classes should be moved to top of section       
+   5. Single content classes should be moved to top of section
    6. Organize @media from largest to smallest
    7. Back up all personal preferences by saying you read an article online
-      from a pro about how your way is the best way 
+      from a pro about how your way is the best way
    8. Pretty much assign every div the .animate class because who knows, it may
       move in some way or another and it may look cool
 */
@@ -41,6 +41,10 @@ body {
 #block-dark {
   width: 100%;
   background-color: white;
+}
+.main-contain {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .nav-active {
   border-bottom: 2px solid #c8102e;
@@ -291,9 +295,9 @@ a:visited { text-decoration: none; color: inherit;}
   margin-right: 10px;
   margin-bottom: 20px;
 }
-@media (max-width: 1050px) { 
+@media (max-width: 1050px) {
   .hide { display: none; }
-  .value-box { width: 98%; } 
+  .value-box { width: 98%; }
   .value-box-title { height: 50px; }
   .value-title-word { line-height: 50px; }
   .value-img { width: 50px; height: 50px; }
@@ -324,14 +328,14 @@ a:visited { text-decoration: none; color: inherit;}
 .contact-img {
   background-size: cover;
   justify-content: center;
-  background-position: center; 
-  background-image: url("../img/contact.jpg"); 
+  background-position: center;
+  background-image: url("../img/contact.jpg");
 }
 .recruit-img {
   background-size: cover;
   justify-content: center;
-  background-position: center; 
-  background-image: url("../img/recruit.jpg"); 
+  background-position: center;
+  background-image: url("../img/recruit.jpg");
 }
 .top-box {
   width: 98%;
@@ -371,14 +375,14 @@ a:visited { text-decoration: none; color: inherit;}
 .about-img {
   background-size: cover;
   justify-content: center;
-  background-position: center; 
-  background-image: url("../img/about.jpg"); 
+  background-position: center;
+  background-image: url("../img/about.jpg");
 }
 .then-img {
   background-size: cover;
   justify-content: center;
-  background-position: center; 
-  background-image: url("../img/then.jpg"); 
+  background-position: center;
+  background-image: url("../img/then.jpg");
 }
 .extra-small-top {
   width: 75%;
@@ -392,7 +396,7 @@ a:visited { text-decoration: none; color: inherit;}
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-@media (max-width: 450px) { 
+@media (max-width: 450px) {
   .extra-large-top { font-size: 30px; }
   .extra-large {
     font-size: 30px;
@@ -426,8 +430,8 @@ a:visited { text-decoration: none; color: inherit;}
     display: block;
     background-size: cover;
     justify-content: center;
-    background-position: center; 
-    background-image: url("../img/girls.jpg"); 
+    background-position: center;
+    background-image: url("../img/girls.jpg");
 }
 
 
