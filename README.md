@@ -24,7 +24,7 @@ This project is Chi Omega Eta Kappa's website.
   * [x] Analytics include
 * [ ] Home page
   * [ ] Feature includes
-  * [ ] Landing image and words
+  * [x] Landing image and words
   * [ ] Quick quote
   * [ ] Six values
   * [ ] Two call to actions

@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#activate").click(function(){
+    $(".nav-mobile").toggle();
+    $(".nav-full").toggleClass("nav-full-color");
+    $(".nav-logo-words").toggleClass("nav-color-scrolling");
+    $(".nav-mobile-item").toggleClass("nav-color-scrolling");
+    $(".nav-activate").toggleClass("nav-color-scrolling");
+    });
+});
+//end
