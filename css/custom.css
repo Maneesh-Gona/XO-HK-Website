@@ -46,6 +46,10 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+.in-contain {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .nav-active {
   border-bottom: 2px solid #c8102e;
 }
@@ -425,15 +429,16 @@ a:visited { text-decoration: none; color: inherit;}
   text-transform: uppercase;
 }
 .about-page-img {
-    width: 150px;
-    height: 150px;
+    width: 70%;
     display: block;
-    background-size: cover;
-    justify-content: center;
-    background-position: center;
-    background-image: url("../img/girls.jpg");
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
-
+@media (max-width: 675px) {
+  .about-page-img {
+      width: 90%;
+  }
+}
 
 
 
