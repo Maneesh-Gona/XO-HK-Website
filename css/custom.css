@@ -406,6 +406,12 @@ a:visited { text-decoration: none; color: inherit;}
   background-position: center;
   background-image: url("../img/phil.jpg");
 }
+.sister-top-img {
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  background-image: url("../img/sister.jpg");
+}
 .extra-small-top {
   width: 75%;
   display: block;
