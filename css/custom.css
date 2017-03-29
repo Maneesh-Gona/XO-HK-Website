@@ -325,6 +325,12 @@ a:visited { text-decoration: none; color: inherit;}
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.extra-medium {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 .extra-small {
   display: block;
   font-size: 15px;
