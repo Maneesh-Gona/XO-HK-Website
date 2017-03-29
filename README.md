@@ -1,10 +1,10 @@
 # XO-HK-Website
 
-###About
+### About
 
-This project is Chi Omega Eta Kappa's website.
+  This project is Chi Omega Eta Kappa's website.
 
-###Goals
+### Goals
 
 * Redesign front-end
   * Make mobile friendly
@@ -12,63 +12,26 @@ This project is Chi Omega Eta Kappa's website.
 * Build new back-end
   * Features include laundry, sobers, meals, roster
 
-###Checklist
+### Contributing
 
-* [ ] All page features
-  * [x] Navigation bar
-  * [x] Mobile navigation bar
-  * [ ] Footer
-  * [ ] Mobile footer
-  * [x] Header contents
-  * [x] JS includes
-  * [x] Analytics include
-* [ ] Home page
-  * [ ] Feature includes
-  * [x] Landing image and words
-  * [ ] Quick quote
-  * [ ] Six values
-  * [ ] Two call to actions
-* [ ] About page
-  * [ ] Feature includes
-  * [ ] Images
-  * [ ] About blurb
-  * [ ] Two related call to actions
-* [ ] Recruitment page
-  * [ ] Feature includes
-  * [ ] Images
-  * [ ] Recruitment blurb
-  * [ ] Two related call to actions
-* [ ] Philanthropy page
-  * [ ] Feature includes
-  * [ ] Images
-  * [ ] Philanthropy blurb
-  * [ ] Two related call to actions
-* [ ] Sisterhood page
-  * [ ] Feature includes
-  * [ ] Images
-  * [ ] Sisterhood blurb
-  * [ ] Two related call to actions
-* [ ] Contact page
-  * [ ] Feature includes
-  * [ ] Contact form
-  * [ ] Two related call to actions
+  Use `git clone https://github.com/Maneesh-Gona/XO-HK-Website.git` to create
 
-###Contributing
+  Use `git pull` to update
 
-* Use `git clone https://github.com/Maneesh-Gona/XO-HK-Website.git` to copy
-* Use `git pull` to update
-* Use `git add .` to add files
-* Use `git commit -m "commit details"` to commit
-* Use `git push` to push
+  Use `git add .` to add files
 
-###Credits
+  Use `git commit -m "commit details"` to commit
 
-Project lead: @maneesh-gona
+  Use `git push` to push
 
-Front-end lead: @shanebodimer
+### Credits
 
-Back-end lead: @cdmfk6
+  Project lead: **@maneesh-gona**
 
-###License
+  Front-end lead: **@shanebodimer**
 
-The MIT License (MIT)
+  Back-end lead: **@cdmfk6**
+
+### License
+
+  The MIT License (MIT)
