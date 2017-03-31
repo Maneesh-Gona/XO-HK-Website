@@ -412,6 +412,12 @@ a:visited { text-decoration: none; color: inherit;}
   background-position: center;
   background-image: url("../img/sister.jpg");
 }
+.contact-top-img {
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  background-image: url("../img/contact2.jpg");
+}
 .extra-small-top {
   width: 75%;
   display: block;
@@ -463,8 +469,24 @@ a:visited { text-decoration: none; color: inherit;}
       width: 90%;
   }
 }
-
-
+/* contact */
+/* -------------------------------------------------------------------------- */
+.contact-profile {
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+  color: #c8102e;
+  font-size: 15;
+}
+.contact-profile-img {
+  width: 200px;
+  height: 250px;
+}
+.contact-name {
+  text-transform: uppercase;
+  font-size: 25;
+}
 
 
 
